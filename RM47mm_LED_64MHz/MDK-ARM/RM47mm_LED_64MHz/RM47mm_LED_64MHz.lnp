@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"rm47mm_led_64mhz\startup_stm32f103xb.o"
+"rm47mm_led_64mhz\main.o"
+"rm47mm_led_64mhz\gpio.o"
+"rm47mm_led_64mhz\dma.o"
+"rm47mm_led_64mhz\tim.o"
+"rm47mm_led_64mhz\stm32f1xx_it.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_msp.o"
+"rm47mm_led_64mhz\ws2812.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_gpio_ex.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_tim.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_tim_ex.o"
+"rm47mm_led_64mhz\stm32f1xx_hal.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_rcc.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_rcc_ex.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_gpio.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_dma.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_cortex.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_pwr.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_flash.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_flash_ex.o"
+"rm47mm_led_64mhz\stm32f1xx_hal_exti.o"
+"rm47mm_led_64mhz\system_stm32f1xx.o"
+--strict --scatter "RM47mm_LED_64MHz\RM47mm_LED_64MHz.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "RM47mm_LED_64MHz.map" -o RM47mm_LED_64MHz\RM47mm_LED_64MHz.axf

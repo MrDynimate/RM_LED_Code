@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"rm_47mmled\startup_stm32f103xb.o"
+"rm_47mmled\main.o"
+"rm_47mmled\gpio.o"
+"rm_47mmled\dma.o"
+"rm_47mmled\tim.o"
+"rm_47mmled\stm32f1xx_it.o"
+"rm_47mmled\stm32f1xx_hal_msp.o"
+"rm_47mmled\rgb.o"
+"rm_47mmled\stm32f1xx_hal_gpio_ex.o"
+"rm_47mmled\stm32f1xx_hal_tim.o"
+"rm_47mmled\stm32f1xx_hal_tim_ex.o"
+"rm_47mmled\stm32f1xx_hal.o"
+"rm_47mmled\stm32f1xx_hal_rcc.o"
+"rm_47mmled\stm32f1xx_hal_rcc_ex.o"
+"rm_47mmled\stm32f1xx_hal_gpio.o"
+"rm_47mmled\stm32f1xx_hal_dma.o"
+"rm_47mmled\stm32f1xx_hal_cortex.o"
+"rm_47mmled\stm32f1xx_hal_pwr.o"
+"rm_47mmled\stm32f1xx_hal_flash.o"
+"rm_47mmled\stm32f1xx_hal_flash_ex.o"
+"rm_47mmled\stm32f1xx_hal_exti.o"
+"rm_47mmled\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "RM_47mmLED\RM_47mmLED.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "RM_47mmLED.map" -o RM_47mmLED\RM_47mmLED.axf
